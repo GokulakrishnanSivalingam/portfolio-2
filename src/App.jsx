@@ -24,7 +24,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1000 ,once:true});
   }, []);
 
   const toggleMenu = () => {
