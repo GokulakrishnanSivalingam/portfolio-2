@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       <nav className="navbar">
-     <div className="logo">Portfolio</div> 
+     <div className="logo">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
           <li><a href="mailto:sivalingamgokulakrishnan@gmail.com">Contact</a></li>
@@ -121,7 +121,7 @@ function App() {
       <footer>
       <div class="footer-container">
     <div class="footer-section logo">
-      <h1>Portfolio</h1>
+      <h1>GK</h1>
       <p>Elegance meets excellence. Discover the difference with us.</p>
       <div class="socials">
         <a href="#"></a>
