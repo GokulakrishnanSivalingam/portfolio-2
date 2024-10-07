@@ -24,7 +24,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    AOS.init({ duration: 1200 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   const toggleMenu = () => {
@@ -64,7 +64,7 @@ function App() {
       </div>
 
       <h1>Skills I Have </h1><div className="con-skills">
-      <div className="skills" data-aos="fade-up">
+      <div className="skills" >
       <a href="https://www.html.com" > <img src={h2} alt="HTML" data-aos="fade-up"/></a> 
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> <img src={css} alt="CSS"data-aos="fade-up" /></a> 
       <a href="https://www.javascript.com"> <img src={js} alt="JavaScript" data-aos="fade-up"/></a> 
@@ -78,7 +78,7 @@ function App() {
     <div className="proj"> <h1>Projects  I Have</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-down">
-         <a href="https://movie-stream-gules.vercel.app/"><img src={stream} alt="" /></a> 
+         <a href="https://jetplex.vercel.app"><img src={stream} alt="" /></a> 
           <p>movie streaming site</p>
         </div>
         <div className="project" data-aos="fade-down">
@@ -98,7 +98,26 @@ function App() {
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
     </button>
-   </div></center> 
+   </div></center> <h1>Github Stats</h1><center><div className="github">
+<div className="stats" data-aos="fade-down">  <img 
+        src="https://github-readme-stats.vercel.app/api?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false" 
+        alt="GitHub Stats" 
+       
+      /></div> 
+      
+      <div className="stats" data-aos="fade-down"> <img 
+        src="https://github-readme-streak-stats.herokuapp.com/?user=GokulakrishnanSivalingam&hide_border=false" 
+        alt="GitHub Streak" 
+        
+      /></div> 
+      
+      <div className="stats" data-aos="fade-down"> <img 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false&layout=compact" 
+        alt="Top Languages" 
+       
+      /></div> </div></center>
+    
+      
       <footer>
       <div class="footer-container">
     <div class="footer-section logo">
