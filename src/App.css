@@ -166,8 +166,8 @@
                     
                     .skills img:hover {
                         transition: 0.3s;
-                        height: 140px;
-                        width: 140px;
+                        height: 130px;
+                        width: 130px;
                     }
                     
                     h1 {
