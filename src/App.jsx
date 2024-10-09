@@ -2,11 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import pdf from'./img/gokulakrishnan.pdf'
-import { FaHome } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import pdf from'./img/gokulakrishnan-resume.pdf'
 import dis from "./img/discuss.gif"
-import { MdFileDownload } from "react-icons/md";
 import p1 from "./img/p2.gif";
 import css from "./img/css.jpeg";
 import h2 from "./img/h.jpeg";
@@ -98,7 +95,7 @@ function App() {
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
     </button>
-   </div></center> <h1>Github Stats</h1><center><div className="github">
+   </div></center> <h1>Github Stats</h1><div className="github">
 <div className="stats" data-aos="fade-down">  <img 
         src="https://github-readme-stats.vercel.app/api?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false" 
         alt="GitHub Stats" 
@@ -115,7 +112,7 @@ function App() {
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false&layout=compact" 
         alt="Top Languages" 
        
-      /></div> </div></center>
+      /></div> </div>
     
       
       <footer>

@@ -490,8 +490,8 @@
                             margin-left: 20px;
                         }
                         .skills img {
-                            height: 130px;
-                            width: 130px;
+                            height: 120px;
+                            width: 120px;
                             border: none;
                             border-radius: 7px;
                             margin: 15px;
@@ -530,5 +530,30 @@
                         .stats1 img {
                             width: 340px;
                             border-radius: 5px;
+                        }
+                    }
+                    
+                    @media (max-width:400px) {
+                        .discuss {
+                            background-color: #696D98;
+                            width: 345px;
+                            border-radius: 20px;
+                            margin-left: 20px;
+                        }
+                        .github img {
+                            width: 350px;
+                            box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
+                            border-radius: 10px;
+                            display: flex;
+                            margin: 20px;
+                            align-items: center;
+                            justify-content: center;
+                            margin-left: 50px;
+                        }
+                        .project {
+                            margin-left: 50px;
+                        }
+                        footer {
+                            width: 400px;
                         }
                     }
