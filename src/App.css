@@ -504,7 +504,7 @@
                         }
                         .discuss {
                             background-color: #696D98;
-                            width: 325px;
+                            width: 345px;
                             border-radius: 20px;
                         }
                         .discuss img {
@@ -512,7 +512,7 @@
                             margin-left: 0px;
                         }
                         .github img {
-                            width: 335px;
+                            width: 365px;
                             box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                             border-radius: 10px;
                             display: flex;
@@ -536,12 +536,12 @@
                     @media (max-width:400px) {
                         .discuss {
                             background-color: #696D98;
-                            width: 305px;
+                            width: 325px;
                             border-radius: 20px;
                             margin-left: 10px;
                         }
                         .github img {
-                            width: 300px;
+                            width: 320px;
                             box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                             border-radius: 10px;
                             display: flex;
