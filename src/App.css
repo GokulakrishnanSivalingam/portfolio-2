@@ -536,22 +536,18 @@
                     @media (max-width:400px) {
                         .discuss {
                             background-color: #696D98;
-                            width: 345px;
+                            width: 325px;
                             border-radius: 20px;
-                            margin-left: 20px;
+                            margin-left: 10px;
                         }
                         .github img {
-                            width: 350px;
+                            width: 320px;
                             box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                             border-radius: 10px;
                             display: flex;
                             margin: 20px;
                             align-items: center;
                             justify-content: center;
-                            margin-left: 50px;
-                        }
-                        .project {
-                            margin-left: 50px;
                         }
                         footer {
                             width: 400px;
