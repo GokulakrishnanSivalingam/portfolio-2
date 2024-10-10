@@ -504,7 +504,7 @@
                         }
                         .discuss {
                             background-color: #696D98;
-                            width: 345px;
+                            width: 325px;
                             border-radius: 20px;
                         }
                         .discuss img {
@@ -531,15 +531,22 @@
                             width: 340px;
                             border-radius: 5px;
                         }
+                       .discuss img{
+                        width:280px;
+                      }
                     }
                     
                     @media (max-width:400px) {
                         .discuss {
                             background-color: #696D98;
-                            width: 345px;
+                            width: 325px;
                             border-radius: 20px;
                             margin-left: 10px;
                         }
+                      .discuss img{
+                        width:280px;
+                      }
+                      
                         .github img {
                             width: 320px;
                             box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
