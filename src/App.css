@@ -538,7 +538,7 @@
                             background-color: #696D98;
                             width: 345px;
                             border-radius: 20px;
-                            margin-left: 20px;
+                            margin-left: 10px;
                         }
                         .github img {
                             width: 320px;
@@ -548,12 +548,12 @@
                             margin: 20px;
                             align-items: center;
                             justify-content: center;
-                            margin-left: 55px;
+                            margin-left: 35px;
                         }
                         footer {
                             width: 400px;
                         }
                         .project {
-                            margin-left: 40px;
+                            margin-left: 20px;
                         }
                     }
