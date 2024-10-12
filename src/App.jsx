@@ -11,9 +11,11 @@ import js from "./img/js1.jpeg";
 import node from "./img/node1.jpeg";
 import db from "./img/mongo.jpeg";
 import ex from "./img/ex1.jpeg";
+import zee from'./img/zee.png'
+
 import r from "./img/r.jpeg";
 import p from "./img/p.jpeg";
-import ecom from "./img/ecom.png";
+
 import stream from "./img/stream1.png";
 import cal from "./img/cals.png"
 
@@ -79,16 +81,15 @@ function App() {
           <p>movie streaming site</p>
         </div>
         <div className="project" data-aos="fade-down">
-        <a href="https://gokulakrishnansivalingam.github.io/e-comerce/mobile.html"><img src={ecom} alt="" /></a>
-          <p>Ecommerce (front-end)</p>
-        </div>
+       <a href="https://zeeshirts.vercel.app">  <img src={zee} alt="" /></a> 
+          <p>Clothes e-com</p></div>
        
         <div className="project" data-aos="fade-down">
        <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html">  <img src={cal} alt="" /></a> 
           <p>CGPA Calculator</p>
         
         </div>
-      
+     <a href="/project">  <button>see more</button></a> 
       
       </div>
       <center> <div className="discuss" data-aos="fade-right">
