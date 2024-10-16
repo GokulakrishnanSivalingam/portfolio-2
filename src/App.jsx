@@ -89,7 +89,7 @@ function App() {
           <p>CGPA Calculator</p>
         
         </div>
-     <a href="/project"><button>see more</button></a> 
+   
       
       </div>
       <center> <div className="discuss" data-aos="fade-right">
