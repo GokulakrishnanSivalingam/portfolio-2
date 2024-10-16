@@ -1,28 +1,17 @@
-import React, { useState } from 'react'
-import App from './App.jsx'
-import Project from './Project.jsx'
-
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-
-
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import App from './App.jsx';
+import Project from './Project.jsx';
 
 function Index() {
-  const [count, setCount] = useState(0)
-  
-
   return (
-  
-        <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-        
-<Route path='/' element={<App/>}/>
-<Route path='/project' element={<Project/>}/>
-
+        <Route path="/" element={<App />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
-      </BrowserRouter>
-      
-  )
+    </BrowserRouter>
+  );
 }
 
-export default Index
+export default Index;
