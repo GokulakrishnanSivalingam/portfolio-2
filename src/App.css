@@ -541,7 +541,7 @@
                     
                     @media (max-width:400px) {
                         body {
-                            width: 110vw;
+                            width: 100vw;
                         }
                         .discuss {
                             background-color: #696D98;
