@@ -388,7 +388,7 @@
                     
                     @media (max-width: 768px) {
                         body {
-                            width: 90vw;
+                            width: 100vw;
                         }
                         .nav-links {
                             display: none;
@@ -541,8 +541,7 @@
                     
                     @media (max-width:400px) {
                         body {
-                            width: 95vw;
-                            ;
+                            width: 110vw;
                         }
                         .discuss {
                             background-color: #696D98;
