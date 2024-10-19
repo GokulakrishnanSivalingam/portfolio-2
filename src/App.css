@@ -387,9 +387,6 @@
                     }
                     
                     @media (max-width: 768px) {
-                        body {
-                            width: 100vw;
-                        }
                         .nav-links {
                             display: none;
                             flex-direction: column;
@@ -540,9 +537,6 @@
                     }
                     
                     @media (max-width:400px) {
-                        body {
-                            width: 100vw;
-                        }
                         .discuss {
                             background-color: #696D98;
                             width: 325px;
