@@ -26,14 +26,14 @@ You can view the live version of the portfolio here: [Your Portfolio Link](https
 
 ## 📂 Project Structure
 root/
-├── public/ │
-├── index.html 
-│ └── assets/ # Static assets (images, icons, etc.) 
-├── src/ │ 
-         ├── components/ # Reusable components (Navbar, Footer, etc.) 
-         ├── pages/ # Main pages (Home, Projects, Contact, etc.) 
-         ├── styles/ # CSS files 
-         │ └── App.js # Main React component
-         │ └── package.json
+├── public/ <br>
+├── index.html  <br>
+│ └── assets/ # Static assets (images, icons, etc.)  <br>
+├── src/ │  <br>
+         ├── components/ # Reusable components (Navbar, Footer, etc.)  <br>
+         ├── pages/ # Main pages (Home, Projects, Contact, etc.)  <br>
+         ├── styles/ # CSS files  <br>
+         │ └── App.js # Main React component <br>
+│ └── package.json 
 
 
