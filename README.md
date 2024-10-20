@@ -8,11 +8,12 @@ The **Portfolio Website** serves as a personal site to highlight my work, includ
 
 ## 📊 Language Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GokulakrishnanSivalingam&repo=portfolio-2&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GokulakrishnanSivalingam&repo=portpolio-2&layout=compact)
+
 
 ## 🔗 Live Demo
 
-You can view the live version of the portfolio here: [Your Portfolio Link](https://gokuls.vercel.app)
+You can view the live version of the portfolio here: [Portfolio Link](https://gokuls.vercel.app)
 
 
 
