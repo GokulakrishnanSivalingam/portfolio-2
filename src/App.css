@@ -476,17 +476,18 @@
                             display: flex;
                             flex-wrap: wrap;
                             margin-right: 10px;
+                            margin-left: 20px;
                             justify-content: center;
                             align-items: center;
-                        }
-                        .project {
-                            margin-left: -15px;
                         }
                         ul li .home {
                             margin-left: 200px;
                             color: black;
                             font-size: 28px;
                             visibility: visible;
+                        }
+                        .project {
+                            margin-left: 30px;
                         }
                         .skills img {
                             height: 120px;
@@ -535,12 +536,12 @@
                         }
                     }
                     
-                    @media only screen and (max-width:400px) {
+                    @media (max-width:400px) {
                         .discuss {
                             background-color: #696D98;
                             width: 325px;
                             border-radius: 20px;
-                            margin-left: 20px;
+                            margin-left: 10px;
                         }
                         .discuss img {
                             width: 280px;
@@ -553,7 +554,7 @@
                             margin: 20px;
                             align-items: center;
                             justify-content: center;
-                            margin-left: 40px;
+                            margin-left: 25px;
                         }
                         footer {
                             width: 400px;
