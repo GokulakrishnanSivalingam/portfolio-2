@@ -92,7 +92,7 @@ function App() {
    
       
       </div>
- <center> <a href="/project"> <button>see more</button></a></center>  
+ 
       <center> <div className="discuss" data-aos="fade-right">
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
