@@ -50,7 +50,7 @@ function App() {
 
       <div className="cont">
         <div className="info" data-aos="fade-down">
-          <h1>Hello Developers ! ,Iam Gokulakrishnan </h1>
+          <h1>Hello Developers!,Iam Gokulakrishnan </h1>
         
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
