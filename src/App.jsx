@@ -96,7 +96,7 @@ function App() {
    
       
       </div>
-  <h1>Connect with me </h1>
+
       <center> <div className="discuss" data-aos="fade-right">
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
