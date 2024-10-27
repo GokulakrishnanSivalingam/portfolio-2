@@ -189,7 +189,8 @@
                         opacity: 0;
                     }
                     
-                    .container {
+                    .container ,
+                    .container1{
                         display: flex;
                         flex-wrap: wrap;
                         margin-left: 40px;
@@ -197,7 +198,8 @@
                         align-items: center;
                     }
                     
-                    .project {
+                    .project ,
+                    .domain{
                         border-radius: 10px;
                         box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                         background-color: rgb(255, 255, 255);
@@ -205,9 +207,11 @@
                         border: none;
                     }
                     
-                    .project p {
+                    .project p ,
+                      .domain p{
                         color: grey;
                         margin-left: 40px;
+                      margin-top:2px;
                     }
                     
                     .project img {
@@ -216,7 +220,12 @@
                         margin: 8px;
                         border-radius: 10px;
                     }
-                    
+                        .domain img {
+                        width: 290px;
+                        height: 350px;
+                        margin: 8px;
+                        border-radius: 10px;
+                    }
                     footer {
                         background-color: #e6e2e2;
                         color: black;
