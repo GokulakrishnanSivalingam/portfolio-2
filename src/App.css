@@ -189,11 +189,17 @@
                         opacity: 0;
                     }
                     
-                    .container ,
-                    .container1{
+                    .container {
                         display: flex;
                         flex-wrap: wrap;
                         margin-left: 40px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                  .container1{
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 25px;
                         justify-content: center;
                         align-items: center;
                     }
