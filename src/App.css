@@ -214,18 +214,14 @@
                       margin-top:2px;
                     }
                     
-                    .project img {
+                    .project img ,
+                    .domain img{
                         width: 320px;
                         height: 300px;
                         margin: 8px;
                         border-radius: 10px;
                     }
-                        .domain img {
-                        width: 290px;
-                        height: 350px;
-                        margin: 8px;
-                        border-radius: 10px;
-                    }
+                     
                     footer {
                         background-color: #e6e2e2;
                         color: black;
