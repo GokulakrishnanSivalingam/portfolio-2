@@ -81,22 +81,21 @@ function App() {
     <div className="proj"> <h1>Projects  I Have</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-down">
-         <a href="https://jetplex.vercel.app"><img src={stream} alt="" /></a> 
-          <p>movie streaming site</p>
+         <img src='https://i.pinimg.com/originals/69/85/32/6985323e5c178590219eeeb1031a30d9.gif' alt="" />
+         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
         </div>
         <div className="project" data-aos="fade-down">
-       <a href="https://zeeshirts.vercel.app">  <img src={zee} alt="" /></a> 
-          <p>Clothes e-com</p></div>
-       
+ <img src="https://i.pinimg.com/originals/d4/27/e5/d427e5864d143acdc5f636f9b59cd322.gif" alt="" />
+ <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app"> <button>visit</button></a> </div>
+          </div>
         <div className="project" data-aos="fade-down">
-       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html">  <img src={cal} alt="" /></a> 
-          <p>CGPA Calculator</p>
+ <img src="https://i.pinimg.com/originals/64/30/6e/64306e132fc5ba2bf1dc8375540fd449.gif" alt="" />
+ <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button>visit</button></a> </div>
         
         </div>
    
       
       </div>
-
       <center> <div className="discuss" data-aos="fade-right">
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
