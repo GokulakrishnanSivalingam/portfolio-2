@@ -81,7 +81,7 @@ function App() {
     <div className="proj"> <h1>Projects  I Have</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-down">
-         <img src='https://i.pinimg.com/originals/69/85/32/6985323e5c178590219eeeb1031a30d9.gif' alt="" />
+         <img src='https://i.pinimg.com/originals/31/eb/55/31eb55dc4e16c7bc1950ba5fb923e683.gif' alt="" />
          <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
         </div>
         <div className="project" data-aos="fade-down">
