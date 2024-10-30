@@ -61,7 +61,21 @@ function App() {
           <img src={p1} alt="Profile" />
         </div>
       </div>
-
+<h1>what i do</h1>
+<div className="container1">
+  <div className="domain" data-aos="fade-up">
+    <img src="https://i.pinimg.com/originals/e8/d8/3e/e8d83e14bb6d1874f85d36213b1dac40.gif" alt="" />
+    <p>frontend development</p>
+  </div>
+  <div className="domain" data-aos="fade-up">
+    <img src="https://i.pinimg.com/originals/fa/da/ac/fadaaccbe42be76393b341017b735367.gif" alt="" />
+    <p>backend development</p>
+  </div>
+  <div className="domain" data-aos="fade-up" >
+    <img src='https://i.pinimg.com/originals/05/cd/9a/05cd9a0bb4c72e5ba98ece031987955d.gif'alt="" />
+    <p>App development</p>
+  </div>
+</div>
       <h1>Skills I Have </h1><div className="con-skills">
       <div className="skills" >
       <a href="https://www.html.com" > <img src={h2} alt="HTML" data-aos="fade-up"/></a> 
@@ -77,23 +91,24 @@ function App() {
     <div className="proj"> <h1>Projects  I Have</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-down">
-         <a href="https://jetplex.vercel.app"><img src={stream} alt="" /></a> 
-          <p>movie streaming site</p>
+         <img src='https://i.pinimg.com/originals/69/85/32/6985323e5c178590219eeeb1031a30d9.gif' alt="" />
+         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
         </div>
         <div className="project" data-aos="fade-down">
-       <a href="https://zeeshirts.vercel.app">  <img src={zee} alt="" /></a> 
-          <p>Clothes e-com</p></div>
-       
+ <img src="https://i.pinimg.com/originals/d4/27/e5/d427e5864d143acdc5f636f9b59cd322.gif" alt="" />
+ <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app"> <button>visit</button></a> </div>
+          </div>
         <div className="project" data-aos="fade-down">
-       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html">  <img src={cal} alt="" /></a> 
-          <p>CGPA Calculator</p>
+ <img src="https://i.pinimg.com/originals/64/30/6e/64306e132fc5ba2bf1dc8375540fd449.gif" alt="" />
+ <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button>visit</button></a> </div>
         
         </div>
    
       
       </div>
+      <center><a href="/project"><button>see more</button></a></center>
  
-      <center> <div className="discuss" data-aos="fade-right">
+      <center> <div className="discuss">
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
     </button>

@@ -53,9 +53,9 @@
                     .nav-links li a:hover {
                         background-color: white;
                         color: black;
-                        padding: 6px;
-                        border-radius: 7px;
-                        transition: 0.2s;
+                        border-radius: 50px;
+                        transition: 0.33s;
+                        padding: 3px 11px 3px 11px;
                     }
                     
                     .login li {
@@ -189,7 +189,8 @@
                         opacity: 0;
                     }
                     
-                    .container {
+                    .container,
+                    .container1 {
                         display: flex;
                         flex-wrap: wrap;
                         margin-left: 40px;
@@ -197,7 +198,8 @@
                         align-items: center;
                     }
                     
-                    .project {
+                    .project,
+                    .domain {
                         border-radius: 10px;
                         box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                         background-color: rgb(255, 255, 255);
@@ -205,14 +207,23 @@
                         border: none;
                     }
                     
-                    .project p {
+                    .project p,
+                    .domain p {
                         color: grey;
                         margin-left: 40px;
+                        margin-top: 1px;
                     }
                     
                     .project img {
                         width: 320px;
                         height: 300px;
+                        margin: 8px;
+                        border-radius: 10px;
+                    }
+                    
+                    .domain img {
+                        width: 290px;
+                        height: 350px;
                         margin: 8px;
                         border-radius: 10px;
                     }
@@ -386,6 +397,20 @@
                         margin-bottom: 80px;
                     }
                     
+                    .v a button {
+                        width: fit-content;
+                        height: 30px;
+                        margin: 0%;
+                        display: flex;
+                        float: right;
+                        margin-top: -48px;
+                        margin-right: 20px;
+                        text-decoration: none;
+                        padding: 5px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    
                     @media (max-width: 768px) {
                         .nav-links {
                             display: none;
@@ -396,7 +421,7 @@
                             left: 0;
                             background-color: #1367b1;
                             position: fixed;
-                            z-index: 1000;
+                            z-index: 1;
                             overflow: hidden;
                             transition: 0.4s;
                         }
@@ -410,7 +435,7 @@
                             position: fixed;
                             top: 0;
                             width: 100%;
-                            z-index: 900;
+                            z-index: 1;
                         }
                         .nav-links.active {
                             display: flex;
