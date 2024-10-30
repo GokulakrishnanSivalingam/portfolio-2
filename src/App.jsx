@@ -13,7 +13,7 @@ import node from "./img/node1.jpeg";
 import db from "./img/mongo.jpeg";
 import ex from "./img/ex1.jpeg";
 import zee from'./img/zee.png'
-
+import {Link} from "react-router-dom";
 import r from "./img/r.jpeg";
 import p from "./img/p.jpeg";
 
@@ -111,7 +111,7 @@ function App() {
    
       
       </div>
-      <center><a href="/project"><button>see more</button></a></center>
+      <center><Link to="/project"><button>see more</button></Link></center>
       <center> <div className="discuss" data-aos="fade-right">
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
