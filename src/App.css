@@ -427,7 +427,7 @@ p {
     .nav-links {
         display: none;
         flex-direction: column;
-        width: 45%;
+        width: 42%;
         height: fit-content;
         top: 0;
         right: 0;
@@ -492,7 +492,7 @@ p {
     }
     .info {
         margin-left: 40px;
-        margin-top: 50px;
+        margin-top: 37px;
         animation: fadeIn 1.5s ease-in-out;
         margin-right: 20px;
         margin-bottom: -60px;
