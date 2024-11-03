@@ -25,16 +25,6 @@ You can view the live version of the portfolio here: [Portfolio Link](https://go
 - **Contact Form**: A functional contact form allowing visitors to reach out directly from the site.
 - **Custom Animations**: Subtle CSS animations to enhance user experience.
 
-## 📂 Project Structure
-root/
-├── public/ <br>
-├── index.html  <br>
-│ └── assets/ # Static assets (images, icons, etc.)  <br>
-├── src/ │  <br>
-         ├── components/ # Reusable components (Navbar, Footer, etc.)  <br>
-         ├── pages/ # Main pages (Home, Projects, Contact, etc.)  <br>
-         ├── styles/ # CSS files  <br>
-         │ └── App.js # Main React component <br>
-│ └── package.json 
+
 
 
