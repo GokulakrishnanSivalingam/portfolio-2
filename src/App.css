@@ -86,7 +86,7 @@ body {
 
 .info {
     margin-left: 90px;
-    margin-top: 70px;
+    margin-top: 30px;
     animation: fadeIn 1.5s ease-in-out;
     margin-right: 40px;
 }
@@ -125,7 +125,7 @@ button:hover {
 
 .info2 img {
     width: 650px;
-    height: 550px;
+    height: 520px;
 }
 
 .info h1 {

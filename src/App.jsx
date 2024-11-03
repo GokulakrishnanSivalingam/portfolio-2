@@ -15,6 +15,7 @@ import db from "./img/mongo.jpeg";
 import ex from "./img/ex1.jpeg";
 import zee from'./img/zee.png';
 import {Link} from 'react-router-dom';
+import { GrLinkNext } from "react-icons/gr";
 import r from "./img/r.jpeg";
 import p from "./img/p.jpeg";
 
@@ -23,7 +24,7 @@ import cal from "./img/cals.png"
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   useEffect(() => {
     AOS.init({ duration: 1000 ,once:true});
   }, []);
@@ -58,7 +59,7 @@ function App() {
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
           </p>
-          <a href={pdf} download> <button>Resume  </button></a>
+          <a href={pdf} download> <button>Resume  <GrLinkNext/></button></a>
         </div>
         <div className="info2" >
           <img src={p1} alt="Profile" />
