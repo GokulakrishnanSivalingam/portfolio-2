@@ -14,7 +14,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     height: 40px;
-    margin: 11px;
+    margin: 9px;
     border-radius: 50px;
     background: rgb(28, 28, 118);
     background: linear-gradient(90deg, rgba(28, 28, 118, 1) 24%, rgba(0, 212, 255, 1) 100%);
@@ -427,7 +427,7 @@ p {
     .nav-links {
         display: none;
         flex-direction: column;
-        width: 42%;
+        width: 50%;
         height: fit-content;
         top: 0;
         right: 0;
@@ -448,7 +448,7 @@ p {
         padding: 10px 20px;
         height: 40px;
         top: 0;
-        width: 87%;
+        width: 83%;
         z-index: 1;
     }
     .nav-links.active {
