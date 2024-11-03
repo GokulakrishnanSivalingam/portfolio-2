@@ -52,7 +52,7 @@ function App() {
       </nav>
 
       <div className="cont">
-        <div className="info" data-aos="slide-right" >
+        <div className="info" data-aos="fade-right" >
           <h1 >Hello !,Iam Gokulakrishnan </h1>
         
           <p>
