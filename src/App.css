@@ -448,7 +448,7 @@ p {
         padding: 10px 20px;
         height: 40px;
         top: 0;
-        width: 83%;
+        width: 85%;
         z-index: 1;
     }
     .nav-links.active {
@@ -467,7 +467,7 @@ p {
         display: flex;
         position: relative;
         z-index: 1;
-        margin-right: 5px;
+        margin-right: 2px;
     }
     .login {
         display: none;
