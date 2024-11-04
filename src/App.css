@@ -215,7 +215,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
     background-color: rgb(255, 255, 255);
-    margin: 20px;
+    margin: 30px;
     border: none;
 }
 
@@ -352,9 +352,9 @@ p {
 
 .discuss {
     background-color: #696D98;
-    width: 850px;
+    width: 650px;
     margin-bottom: 70px;
-    border-radius: 15px;
+    border-radius: 25px;
     margin-top: 5px;
 }
 

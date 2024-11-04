@@ -26,7 +26,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    AOS.init({ duration: 1000 ,once:true});
+    AOS.init({ duration: 1300 ,once:true});
   }, []);
 
   const toggleMenu = () => {
@@ -34,7 +34,7 @@ function App() {
   };
   
   return (
-    <div>
+    <div >
       <nav className="navbar">
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
@@ -53,7 +53,7 @@ function App() {
       </nav>
 
       <div className="cont">
-        <div className="info" data-aos="fade-right" >
+        <div className="info" data-aos="fade-up" >
           <h1 >Hello there!, Iam Gokulakrishnan </h1>
         
           <p>
@@ -117,7 +117,7 @@ function App() {
       
       </div>
       <center><Link to="/project"><button>see more</button></Link></center>
-      <center> <div className="discuss" data-aos="fade-up">
+      <center> <div className="discuss" data-aos="fade-right">
     <img src={dis} alt="" />
    <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
     </button>
