@@ -13,11 +13,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    height: 40px;
+    height: 50px;
     margin: 9px;
     border-radius: 50px;
     background: rgb(28, 28, 118);
-    background: linear-gradient(90deg, rgba(28, 28, 118, 1) 24%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(28, 28, 118, 1) 14%, rgba(0, 212, 255, 1) 100%);
 }
 
 .logu {
@@ -58,7 +58,7 @@ body {
 .nav-links li a:hover {
     background-color: white;
     color: black;
-    padding: 7px;
+    padding: 1px;
     border-radius: 50px;
     transition: 0.2s;
 }
@@ -125,7 +125,7 @@ button:hover {
 
 .info2 img {
     width: 650px;
-    height: 520px;
+    height: 490px;
 }
 
 .info h1 {
@@ -446,9 +446,9 @@ p {
         justify-content: space-between;
         align-items: center;
         padding: 10px 20px;
-        height: 40px;
+        height: 50px;
         top: 0;
-        width: 85%;
+        width: 95%;
         z-index: 1;
     }
     .nav-links.active {
@@ -575,5 +575,11 @@ p {
     }
     .discuss img {
         width: 280px;
+    }
+    .logu {
+        color: white;
+        font-size: 20px;
+        padding: 7px;
+        border-radius: 50px;
     }
 }

@@ -18,7 +18,7 @@ import {Link} from 'react-router-dom';
 import { GrLinkNext } from "react-icons/gr";
 import r from "./img/r.jpeg";
 import p from "./img/p.jpeg";
-
+import Map from './Roadmap.jsx'
 import stream from "./img/stream1.png";
 import cal from "./img/cals.png"
 
@@ -54,7 +54,7 @@ function App() {
 
       <div className="cont">
         <div className="info" data-aos="fade-right" >
-          <h1 >Hello !,Iam Gokulakrishnan </h1>
+          <h1 >Hello there!, Iam Gokulakrishnan </h1>
         
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
@@ -65,6 +65,7 @@ function App() {
           <img src={p1} alt="Profile" />
         </div>
       </div>
+      <Map/>
 <h1>thing i do</h1>
 <div className="container1">
   <div className="domain" data-aos="fade-up">
@@ -104,7 +105,8 @@ function App() {
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
- <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app"> <button>visit</button></a> </div>
+ <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
+ <p></p> <button>visit</button></a> </div>
           </div>
         <div className="project" data-aos="fade-up">
  <img src={cal} alt="" />

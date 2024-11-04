@@ -29,7 +29,7 @@ function Project() {
         </div>
       </nav>
 
-<div className="proj"> <h1>Projects  I Have</h1></div> 
+
       <div className="container" >
       <div className="project" data-aos="fade-down">
          <img src='https://i.pinimg.com/originals/69/85/32/6985323e5c178590219eeeb1031a30d9.gif' alt="" />
