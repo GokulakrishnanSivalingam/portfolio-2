@@ -118,10 +118,10 @@ function App() {
       </div>
       <center><Link to="/project"><button>see more</button></Link></center>
       <center> <div className="discuss" data-aos="fade-right">
-    <img src={dis} alt="" />
-   <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
-    </button>
-   </div></center> <h1>Github Stats</h1><div className="github">
+  <div className="discuss-img"> <img src={dis} alt="" /></div> 
+  <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
+    </button></div> 
+   </div></center> <h1 className='statsh'>Github Stats</h1><div className="github">
 <div className="stats" data-aos="fade-up">  <img 
         src="https://github-readme-stats.vercel.app/api?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false" 
         alt="GitHub Stats" 

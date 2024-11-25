@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    height: 50px;
+    height: 60px;
     margin: 9px;
     border-radius: 50px;
     background: rgb(28, 28, 118);
@@ -58,7 +58,7 @@ body {
 .nav-links li a:hover {
     background-color: white;
     color: black;
-    padding: 1px;
+    padding: 2px 10px 2px 10px;
     border-radius: 50px;
     transition: 0.2s;
 }
@@ -352,14 +352,21 @@ p {
 
 .discuss {
     background-color: #696D98;
-    width: 650px;
+    width: 850px;
     margin-bottom: 70px;
     border-radius: 10px;
     margin-top: 5px;
+    display: flex;
 }
 
 .discuss img {
-    width: 300px;
+    width: 350px;
+    margin-left: 20px;
+}
+
+.discuss-button {
+    margin-top: 70px;
+    margin-left: 70px;
 }
 
 .discuss h2 {
@@ -392,11 +399,15 @@ p {
 }
 
 .github {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
+}
+
+.statsh {
+    display: none;
 }
 
 .stats1 {
@@ -483,6 +494,13 @@ p {
         align-items: center;
         justify-content: center;
     }
+    .github {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
     .skills {
         display: flex;
         animation: fadeIn 1.5s ease-in-out;
@@ -548,6 +566,7 @@ p {
         background-color: #696D98;
         width: 325px;
         border-radius: 10px;
+        display: block;
     }
     .discuss img {
         width: 300px;
@@ -573,6 +592,9 @@ p {
         width: 340px;
         border-radius: 5px;
     }
+    .statsh {
+        display: flex;
+    }
     .discuss img {
         width: 280px;
     }
@@ -581,5 +603,9 @@ p {
         font-size: 20px;
         padding: 7px;
         border-radius: 50px;
+    }
+    .discuss-button {
+        margin-top: 5px;
+        margin-left: 0px;
     }
 }
