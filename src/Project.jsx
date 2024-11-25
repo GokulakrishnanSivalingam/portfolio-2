@@ -22,7 +22,7 @@ function Project() {
     return(
 <div>
 <nav className="navbar">
-     <div className="logo">GK</div> 
+     <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
           <li><a href="mailto:sivalingamgokulakrishnan@gmail.com">Contact</a></li>
