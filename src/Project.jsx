@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
+import zee from'./img/zee.png';
+import stream from "./img/stream1.png";
+import cal from "./img/cals.png"
+import music from "./img/music.png"
+import klite from "./img/klite.png"
+import ln from "./img/avlearn.png"
+
+
 function Project() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -31,17 +39,33 @@ function Project() {
 
 
       <div className="container" >
-      <div className="project" data-aos="fade-down">
-         <img src='https://i.pinimg.com/originals/69/85/32/6985323e5c178590219eeeb1031a30d9.gif' alt="" />
+      <div className="project" data-aos="fade-up">
+         <img src={stream} alt="" />
          <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
         </div>
-        <div className="project" data-aos="fade-down">
- <img src="https://i.pinimg.com/originals/d4/27/e5/d427e5864d143acdc5f636f9b59cd322.gif" alt="" />
- <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app"> <button>visit</button></a> </div>
+        <div className="project" data-aos="fade-up">
+ <img src={zee} alt="" />
+ <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
+ <p></p> <button>visit</button></a> </div>
           </div>
-        <div className="project" data-aos="fade-down">
- <img src="https://i.pinimg.com/originals/64/30/6e/64306e132fc5ba2bf1dc8375540fd449.gif" alt="" />
+        <div className="project" data-aos="fade-up">
+ <img src={cal} alt="" />
  <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button>visit</button></a> </div>
+        
+        </div>
+        <div className="project" data-aos="fade-up">
+ <img src={ln} alt="" />
+ <div className="v"><p>Gamification</p><a href="https://avlearns.vercel.app"> <button>visit</button></a> </div>
+        
+        </div>
+        <div className="project" data-aos="fade-up">
+ <img src={music} alt="" />
+ <div className="v">   <p>Music player</p>       <a href="https://music-player-pi-kohl.vercel.app/"> <button>visit</button></a> </div>
+        
+        </div>
+        <div className="project" data-aos="fade-up">
+ <img src={klite} alt="" />
+ <div className="v">   <p>k-lite contact</p>       <a href="https://contact-company.vercel.app/"> <button>visit</button></a> </div>
         
         </div>
    

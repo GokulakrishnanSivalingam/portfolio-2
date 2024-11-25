@@ -212,11 +212,11 @@ h1 {
 
 .project,
 .domain {
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
     background-color: rgb(255, 255, 255);
     margin: 30px;
-    border: none;
+    border: 1px solid rgb(212, 211, 211);
 }
 
 .project p,
@@ -230,14 +230,14 @@ h1 {
     width: 320px;
     height: 340px;
     margin: 8px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 .domain img {
     width: 280px;
     height: 300px;
     margin: 8px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 footer {
@@ -354,7 +354,7 @@ p {
     background-color: #696D98;
     width: 650px;
     margin-bottom: 70px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-top: 5px;
 }
 
@@ -501,7 +501,7 @@ p {
         width: 300px;
         height: 270px;
         margin: 8px;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     p {
         color: grey;
@@ -547,7 +547,7 @@ p {
     .discuss {
         background-color: #696D98;
         width: 325px;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .discuss img {
         width: 300px;
