@@ -21,6 +21,7 @@ import p from "./img/p.jpeg";
 import Map from './Roadmap.jsx'
 import stream from "./img/stream1.png";
 import cal from "./img/cals.png"
+import farm from "./img/farm.png"
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -100,8 +101,9 @@ function App() {
     <div className="proj"> <h1>Projects  I Have</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-up">
-         <img src={stream} alt="" />
-         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
+ <img src={farm} alt="" />
+ <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button>visit</button></a> </div>
+        
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
@@ -158,7 +160,7 @@ function App() {
       <h2>contact</h2>
       <p>if any queries contact me</p>
       <form action="#" method="post">
-        <input type="text" name="email" placeholder="Enter your email" required/>
+        
     
 
       </form>
