@@ -53,7 +53,7 @@
 }
 
 .timeline-content {
-    background: linear-gradient(90deg, rgba(28, 28, 118, 1) 15%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(28, 28, 118, 1) 1%, rgba(0, 212, 255, 1) 100%);
     padding: 15px;
     border-radius: 8px;
     position: relative;
