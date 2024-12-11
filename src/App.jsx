@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import pdf from'./img/GokulakrishnaS.pdf'
+import pdf from'./img/GOKUL.pdf'
 import dis from "./img/discuss.gif"
 import p1 from "./img/p2.gif";
 import css from "./img/css.jpeg";
