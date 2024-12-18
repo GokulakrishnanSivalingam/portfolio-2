@@ -218,10 +218,15 @@ transform: translateY(0);
                             transition: transform 0.3s ease, 0.3s ease;
                         }
                         
-                        .project p,
                         .domain p {
                             color: grey;
                             margin-left: 40px;
+                            margin-top: 2px;
+                        }
+                        
+                        .project p {
+                            color: grey;
+                            margin-left: 20px;
                             margin-top: 2px;
                         }
                         
@@ -230,12 +235,6 @@ transform: translateY(0);
                             height: 280px;
                             margin: 8px;
                             border-radius: 2px;
-                        }
-                        
-                        .project img:hover {
-                            width: 325px;
-                            height: 345px;
-                            transition: 0.5s;
                         }
                         
                         .domain img:hover {
@@ -433,16 +432,16 @@ transform: translateY(0);
                         
                         .v a button {
                             width: fit-content;
-                            height: 30px;
+                            height: 41px;
                             margin: 0%;
                             display: flex;
                             float: right;
-                            margin-top: -48px;
+                            margin-top: -55px;
                             margin-right: 20px;
                             text-decoration: none;
-                            padding: 5px;
-                            padding-left: 30px;
-                            padding-right: 30px;
+                            padding: 10px;
+                            font-size: 18px;
+                            border-radius: 4px;
                         }
                         
                         .project-count {

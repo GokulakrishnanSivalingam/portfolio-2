@@ -22,6 +22,8 @@ import Map from './Roadmap.jsx'
 import stream from "./img/stream1.png";
 import cal from "./img/cals.png"
 import farm from "./img/farm.png"
+import { LuExternalLink } from "react-icons/lu";
+import { ImGithub } from "react-icons/im";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -99,16 +101,16 @@ function App() {
       </div>
       </div>
       <h1>Projects </h1>
-      <div className="project-count">
-        <div className="count" data-aos="zoom-in">
+      <div className="project-count" data-aos="fade-up">
+        <div className="count" >
           <h1>20+</h1>
           <p>Total projects</p>
         </div>       
-        <div className="count" data-aos="zoom-in">
+        <div className="count" >
           <h1>13</h1>
           <p>Static projects</p>
         </div>  
-        <div className="count" data-aos="zoom-in">
+        <div className="count" >
           <h1>7</h1>
           <p>Dynamic projects</p>
         </div>               
@@ -117,23 +119,23 @@ function App() {
       <div className="container" >
       <div className="project" data-aos="fade-up">
  <img src={farm} alt="" />
- <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button>visit</button></a> </div>
+ <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
  <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
- <p></p> <button>visit</button></a> </div>
+ <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
         <div className="project" data-aos="fade-up">
  <img src={cal} alt="" />
- <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button>visit</button></a> </div>
+ <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button><LuExternalLink/></button></a> </div>
         
         </div>
    
       
       </div>
-      <center><Link to="/project"><button>see more</button></Link></center>
+      <center><Link to="/project"><button data-aos="fade-up">see more</button></Link></center>
       <center> <div className="discuss" data-aos="fade-right">
   <div className="discuss-img"> <img src={dis} alt="" /></div> 
   <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
