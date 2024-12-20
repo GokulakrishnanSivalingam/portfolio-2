@@ -18,7 +18,7 @@
                             border-radius: 50px;
                             background: rgb(28, 28, 118);
                             background: linear-gradient(90deg, rgba(28, 28, 118, 1) 14%, rgba(0, 212, 255, 1) 100%);
-                          width:70%;
+                          width:60%;
                         }
 .logu{
   display:none;
@@ -32,7 +32,8 @@
                         }
                         
                         .nav-links li {
-                            margin-left: 40px;
+                            margin-left: 20px;
+                          margin-right:20px;
                         }
                         
                         .nav-links li a {
