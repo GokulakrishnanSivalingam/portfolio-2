@@ -19,6 +19,7 @@
                             background: rgb(28, 28, 118);
                             background: linear-gradient(90deg, rgba(28, 28, 118, 1) 14%, rgba(0, 212, 255, 1) 100%);
                           width:60%;
+                          margin-top:10px;
                         }
 .logu{
   display:none;
