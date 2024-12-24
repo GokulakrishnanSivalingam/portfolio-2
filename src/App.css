@@ -484,7 +484,7 @@ transform: translateY(0);
                                 width: 40%;
                                 height: fit-content;
                                 top: 0;
-                                left: 0;
+                                right: 0;
                                 background: rgb(28, 28, 118);
                                 background: linear-gradient(90deg, rgba(28, 28, 118, 1) 22%, rgba(0, 212, 255, 1) 100%);
                                 z-index: 1000;
@@ -494,6 +494,7 @@ transform: translateY(0);
                                 margin-top: 75px;
                                 border-radius: 4px;
                                 position: absolute;
+                              margin-right:20px;
                             }
                             .navbar {
                                 display: flex;
