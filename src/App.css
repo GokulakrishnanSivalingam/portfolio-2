@@ -60,7 +60,7 @@
                         .nav-links li a:hover {
                             background-color: skyblue;
                             color: black;
-                            padding: 3px 13px 3px 13px;
+                            padding: 1px 13px 1px 13px;
                             border-radius: 50px;
                             transition: 0.2s;
                         }
