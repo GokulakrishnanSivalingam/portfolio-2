@@ -481,7 +481,7 @@ transform: translateY(0);
                             .nav-links {
                                 display: none;
                                 flex-direction: column;
-                                width: 40%;
+                                width: 30%;
                                 height: fit-content;
                                 top: 0;
                                 right: 0;
