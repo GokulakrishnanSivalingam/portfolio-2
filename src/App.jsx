@@ -135,7 +135,7 @@ function App() {
    
       
       </div>
-      <center><Link to="/project"><button data-aos="fade-up">see more</button></Link></center>
+      <center><Link to="/project"><button >see more</button></Link></center>
       <center> <div className="discuss" data-aos="fade-right">
   <div className="discuss-img"> <img src={dis} alt="" /></div> 
   <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
