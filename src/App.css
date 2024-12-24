@@ -60,7 +60,7 @@
                         .nav-links li a:hover {
                             background-color: white;
                             color: black;
-                            padding: 1px 5px 1px 5px;
+                            padding: 5px 1px 5px 1px;
                             border-radius: 50px;
                             transition: 0.2s;
                         }
@@ -170,11 +170,7 @@ transform: translateY(0);
                             margin-left: 20px;
                         }
                         
-                        .skills img:hover {
-                            transition: 0.1s;
-                            height: 135px;
-                            width: 135px;
-                        }
+                        
                         
                         h1 {
                             margin: 20px;
@@ -485,7 +481,7 @@ transform: translateY(0);
                             .nav-links {
                                 display: none;
                                 flex-direction: column;
-                                width: 50%;
+                                width: 40%;
                                 height: fit-content;
                                 top: 0;
                                 right: 0;
@@ -496,7 +492,7 @@ transform: translateY(0);
                                 transition: 0.4s;
                                 margin: 7px;
                                 margin-top: 75px;
-                                border-radius: 8px;
+                                border-radius: 4px;
                                 position: absolute;
                             }
                             .navbar {
