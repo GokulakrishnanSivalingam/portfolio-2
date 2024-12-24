@@ -161,10 +161,10 @@ transform: translateY(0);
                         }
                         
                         .skills img {
-                            height: 150px;
-                            width: 150px;
+                            height: 130px;
+                            width: 130px;
                             border: none;
-                            border-radius: 7px;
+                            border-radius: 4px;
                             margin: 20px;
                             box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                             margin-left: 20px;
@@ -212,7 +212,7 @@ transform: translateY(0);
                         
                         .project,
                         .domain {
-                            border-radius: 5px;
+                            border-radius: 3px;
                             box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
                             background-color: rgb(255, 255, 255);
                             margin: 30px;
