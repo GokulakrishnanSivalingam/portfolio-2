@@ -58,7 +58,7 @@
                         }
                         
                         .nav-links li a:hover {
-                            background-color: rgba(28, 28, 118, 1);
+                            background-color: skyblue;
                             color: white;
                             padding: 0px 10px 0px 10px;
                             border-radius: 50px;
