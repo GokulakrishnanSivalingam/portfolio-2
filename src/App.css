@@ -481,10 +481,10 @@ transform: translateY(0);
                             .nav-links {
                                 display: none;
                                 flex-direction: column;
-                                width: 30%;
+                                width: 40%;
                                 height: fit-content;
                                 top: 0;
-                                right: 0;
+                                left: 0;
                                 background: rgb(28, 28, 118);
                                 background: linear-gradient(90deg, rgba(28, 28, 118, 1) 22%, rgba(0, 212, 255, 1) 100%);
                                 z-index: 1000;
