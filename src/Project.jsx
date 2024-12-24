@@ -23,7 +23,7 @@ function Project() {
     };
     return(
 <div>
-<nav className="navbar">
+<center><nav className="navbar">
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
@@ -37,7 +37,7 @@ function Project() {
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-      </nav>
+      </nav></center>
 
 
       <div className="container" >
