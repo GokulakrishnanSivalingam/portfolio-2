@@ -60,7 +60,7 @@
                         .nav-links li a:hover {
                             background-color: white;
                             color: black;
-                            padding: 2px 7px 2px 7px;
+                            padding: 1px 5px 1px 5px;
                             border-radius: 50px;
                             transition: 0.2s;
                         }
