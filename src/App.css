@@ -424,7 +424,7 @@ transform: translateY(0);
                             margin-bottom: 80px;
                         }
                         
-                    .v a {
+                    .v a button{
                             width: fit-content;
                             height: 41px;
                             margin: 0%;
@@ -439,7 +439,7 @@ transform: translateY(0);
                           background-color:#1367b1;
                             color:white;
                         }
-            .v a:hover
+            .v a button:hover
               {
            background-color:#1367b1;
              color:white;
