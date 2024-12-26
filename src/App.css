@@ -424,7 +424,7 @@ transform: translateY(0);
                             margin-bottom: 80px;
                         }
                         
-                        .v  button {
+                    .v button {
                             width: fit-content;
                             height: 41px;
                             margin: 0%;
@@ -437,13 +437,13 @@ transform: translateY(0);
                             font-size: 18px;
                             border-radius: 4px;
                           background-color:#1367b1;
-  color:white;
+                            color:white;
                         }
-.v  button :hover
-{
-background-color:#1367b1;
-  color:white;
-}
+            .v button :hover
+              {
+           background-color:#1367b1;
+             color:white;
+             }
                         
                         .project-count {
                             display: flex;
