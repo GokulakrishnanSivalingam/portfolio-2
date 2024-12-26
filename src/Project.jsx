@@ -44,12 +44,12 @@ function Project() {
       <div className="container" >
       <div className="project" data-aos="fade-up">
          <img src={stream} alt="" />
-         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
+         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button><LuExternalLink/></button></a> </div>
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
  <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
- <p></p> <button>visit</button></a> </div>
+ <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
         <div className="project" data-aos="fade-up">
  <img src={cal} alt="" />
