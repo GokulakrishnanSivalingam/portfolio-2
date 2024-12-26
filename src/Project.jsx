@@ -8,7 +8,8 @@ import music from "./img/music.png"
 import klite from "./img/klite.png"
 import ln from "./img/avlearn.png"
 import co from "./img/co.png"
-import farm from "./img/farm.png"
+import farm from "./img/farm.png";
+import { LuExternalLink } from "react-icons/lu";
 
 
 function Project() {
