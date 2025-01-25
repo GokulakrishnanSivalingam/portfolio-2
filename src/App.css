@@ -87,7 +87,7 @@
                         }
                         
                         .info {
-                            margin-left: 60px;
+                            margin-left: 120px;
                             margin-top: 50px;
                             animation: fadeIn 1.5s ease-in-out;
                             margin-right: 30px;
@@ -122,8 +122,8 @@
                         }
                         
                         .info2 img {
-                            width: 650px;
-                            height: 490px;
+                            width: 720px;
+                            height: 500px;
                         }
                         
                         .info h1 {
