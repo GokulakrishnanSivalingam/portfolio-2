@@ -23,6 +23,14 @@ import farm from "./img/farm.png"
 import { LuExternalLink } from "react-icons/lu";
 import { ImGithub } from "react-icons/im";
 import Three from './Three.jsx';
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { IoCall } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
+
+
 
 
 function App() {
@@ -194,16 +202,16 @@ function App() {
       <p>Aspiring web developer crafting elegant solutions with React and Express.js</p>
       <div className="socials">
         <a href="https://github.com/GokulakrishnanSivalingam" className="social-icon" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
+     <div className="i"><ImGithub/></div>  
         </a>
         <a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/" className="social-icon" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin-in"></i>
+        <div className="i"> <FaLinkedin/></div>
         </a>
         <a href="mailto:sivalingamgokulakrishnan@gmail.com" className="social-icon">
-          <i className="fas fa-envelope"></i>
+        <div className="i"> <IoMdMail/></div>
         </a>
-        <a href="https://twitter.com/your-twitter" className="social-icon" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-twitter"></i>
+        <a href="https://instagram.com/__gokul_bala__" className="social-icon" target="_blank" rel="noopener noreferrer">
+         <div className="i"> <FaInstagram/></div>
         </a>
       </div>
     </div>
@@ -211,16 +219,16 @@ function App() {
     <div className="footer-section contact">
       <h2>Contact Info</h2>
       <div className="contact-info">
-        <i className="fas fa-envelope"></i>
+        <IoMdMail/>
         <p>sivalingamgokulakrishnan@gmail.com</p>
       </div>
       <div className="contact-info">
-        <i className="fas fa-phone"></i>
+        <IoCall/>
         <p>+91 9876543210</p>
       </div>
       <div className="contact-info">
-        <i className="fas fa-map-marker-alt"></i>
-        <p>Tamil Nadu, India</p>
+<FaLocationDot/>
+      <p>Tamil Nadu, India</p>
       </div>
     </div>
   </div>

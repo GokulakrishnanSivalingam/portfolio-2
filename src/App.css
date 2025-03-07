@@ -273,9 +273,8 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-    padding: 0 60px;
     gap: 80px;
 }
 
@@ -994,13 +993,16 @@ p {
     transform: translateY(-5px);
 }
 
-.social-icon:hover i {
+.social-icon:hover .i {
     color: #1367b1;
 }
 
-.social-icon i {
-    font-size: 18px;
+.social-icon .i {
+    font-size: 21px;
     transition: all 0.3s ease;
+    padding-left: 9px;
+    margin-top: 3px;
+    color: white;
 }
 
 /* Responsive Footer */
