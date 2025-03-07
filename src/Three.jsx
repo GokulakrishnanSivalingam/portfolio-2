@@ -7,19 +7,18 @@ const Model = () => {
   const modelRef = useRef();
   const { scene } = useGLTF('/avs.glb');
 
-  // Modified rotation animation for 360-degree rotation
+  // Modified rotation animation - only horizontal
   useFrame((state) => {
     if (modelRef.current) {
       const t = state.clock.getElapsedTime();
-      // Full 360-degree rotation (2 * Math.PI = 360 degrees)
-      modelRef.current.rotation.y = t * 0.5; // Adjust speed by changing multiplier (0.5 = slower, 1 = faster)
+      modelRef.current.rotation.y = Math.sin(t / 4) / 4 + Math.PI / 4;
     }
   });
 
   // Adjusted configuration
-  scene.scale.set(9, 9, 9);
-  scene.position.set(0, -0.5, 0);
-  scene.rotation.set(0, 0, 0); // Reset initial rotation
+  scene.scale.set(9,9,9);
+  scene.position.set(0, -0.5, 0); // Moved down slightly
+  scene.rotation.set(0, Math.PI / 4, 0);
 
   return (
     <primitive 
@@ -35,8 +34,8 @@ const Three = () => {
     <div className='three'>
       <Canvas
         camera={{ 
-          position: [0, 0, 5],
-          fov: 38
+          position: [0, 0, 5], // Increased z-position
+          fov: 38// Increased field of view
         }}
       >
         <Suspense fallback={null}>
@@ -46,8 +45,8 @@ const Three = () => {
           <OrbitControls 
             enableZoom={false}
             enablePan={false}
-            autoRotate={false}
-            minPolarAngle={Math.PI / 2}
+            autoRotate={false} // Disabled auto-rotation
+            minPolarAngle={Math.PI / 2} // Lock vertical rotation
             maxPolarAngle={Math.PI / 2}
           />
         </Suspense>

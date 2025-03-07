@@ -1,47 +1,65 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Roadmap.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Map() {
+  // Check if device is mobile
+  const isMobile = window.innerWidth <= 768;
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      offset: 100,
+      once: false,
+      easing: 'ease-out-cubic'
+    });
+  }, []);
+
   return (
     <div className="roadmap-container">
       <h1>My Journey</h1>
       <div className="timeline">
-        <div className="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
-          <div className="timeline-content">
-            <h2>2021</h2>
-            <h3>Started Programming</h3>
-            <p>Began learning programming fundamentals and web development basics</p>
+        {timelineData.map((item, index) => (
+          <div 
+            key={index}
+            className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}
+            data-aos={isMobile ? "fade-right" : index % 2 === 0 ? "fade-right" : "fade-left"}
+            data-aos-delay={isMobile ? index * 100 : 0}
+          >
+            <div className="timeline-content">
+              <h2>{item.year}</h2>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
           </div>
-        </div>
-
-        <div className="timeline-item right" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300">
-          <div className="timeline-content">
-            <h2>2022</h2>
-            <h3>Frontend Development</h3>
-            <p>Mastered HTML, CSS, JavaScript and started learning React</p>
-          </div>
-        </div>
-
-        <div className="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
-          <div className="timeline-content">
-            <h2>2023</h2>
-            <h3>Full Stack Development</h3>
-            <p>Learned Node.js, Express, and MongoDB for backend development</p>
-          </div>
-        </div>
-
-        <div className="timeline-item right" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300">
-          <div className="timeline-content">
-            <h2>2024</h2>
-            <h3>Advanced Projects</h3>
-            <p>Building full-stack applications and exploring new technologies</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 }
+
+const timelineData = [
+  {
+    year: '2021',
+    title: 'Started Programming',
+    description: 'Began learning programming fundamentals and web development basics'
+  },
+  {
+    year: '2022',
+    title: 'Frontend Development',
+    description: 'Mastered HTML, CSS, JavaScript and started learning React'
+  },
+  {
+    year: '2023',
+    title: 'Full Stack Development',
+    description: 'Learned Node.js, Express, and MongoDB for backend development'
+  },
+  {
+    year: '2024',
+    title: 'Advanced Projects',
+    description: 'Building full-stack applications and exploring new technologies'
+  }
+];
 
 export default Map;
