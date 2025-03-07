@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
@@ -24,21 +22,50 @@ import cal from "./img/cals.png"
 import farm from "./img/farm.png"
 import { LuExternalLink } from "react-icons/lu";
 import { ImGithub } from "react-icons/im";
+import Three from './Three.jsx';
+
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [activeSection, setActiveSection] = useState('home');
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    AOS.init({ duration: 1000 ,once:true});
+    setMounted(true);
+    AOS.init({ duration: 1000, once: true });
+
+    // Add scroll event listener
+    const handleScroll = () => {
+      const sections = ['home', 'skills', 'projects', 'contact'];
+      const current = sections.find(section => {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          return rect.top >= 0 && rect.top <= window.innerHeight / 2;
+        }
+        return false;
+      });
+      if (current) setActiveSection(current);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleNavClick = (section) => {
+    setActiveSection(section);
+    setIsOpen(false);
+    document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+  };
   
   return (
     <div >
-      <nav className="navbar">
+     <center><nav className="navbar">
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
@@ -53,19 +80,19 @@ function App() {
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-      </nav>
+      </nav></center>
 
-      <div className="cont">
-        <div className="info" data-aos="fade-up" >
-          <h1 >Hello there!, Iam Gokulakrishnan </h1>
+      <div className="cont" id="home">
+        <div className="info" data-aos="fade-up" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+          <h1 className={isHovered ? 'text-focus' : ''}>Hello there!, Iam Gokulakrishnan </h1>
         
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
           </p>
-          <a href={pdf} download> <button>Resume  <GrLinkNext/></button></a>
+          <a href={pdf} download className={isHovered ? 'button-hover' : ''}> <button>Resume  <GrLinkNext/></button></a>
         </div>
         <div className="info2" >
-          <img src={p1} alt="Profile" />
+          {mounted && <Three />}
         </div>
       </div>
       <Map/>
@@ -135,7 +162,7 @@ function App() {
    
       
       </div>
-      <center><Link to="/project"><button data-aos="fade-up">see more</button></Link></center>
+      <center><Link to="/project"><button >see more</button></Link></center>
       <center> <div className="discuss" data-aos="fade-right">
   <div className="discuss-img"> <img src={dis} alt="" /></div> 
   <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
@@ -161,29 +188,42 @@ function App() {
     
       
       <footer>
-      <div class="footer-container">
-    <div class="footer-section logo">
+      <div className="footer-container">
+    <div className="footer-section logo">
       <h1>GK</h1>
-      <p>Elegance meets excellence. Discover the difference with us.</p>
-      <div class="socials">
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+      <p>Aspiring web developer crafting elegant solutions with React and Express.js</p>
+      <div className="socials">
+        <a href="https://github.com/GokulakrishnanSivalingam" className="social-icon" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/" className="social-icon" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:sivalingamgokulakrishnan@gmail.com" className="social-icon">
+          <i className="fas fa-envelope"></i>
+        </a>
+        <a href="https://twitter.com/your-twitter" className="social-icon" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-twitter"></i>
+        </a>
       </div>
     </div>
-    
-    <div class="footer-section newsletter">
-      <h2>contact</h2>
-      <p>if any queries contact me</p>
-      <form action="#" method="post">
-        
-    
-
-      </form>
+   
+    <div className="footer-section contact">
+      <h2>Contact Info</h2>
+      <div className="contact-info">
+        <i className="fas fa-envelope"></i>
+        <p>sivalingamgokulakrishnan@gmail.com</p>
+      </div>
+      <div className="contact-info">
+        <i className="fas fa-phone"></i>
+        <p>+91 9876543210</p>
+      </div>
+      <div className="contact-info">
+        <i className="fas fa-map-marker-alt"></i>
+        <p>Tamil Nadu, India</p>
+      </div>
     </div>
   </div>
-  
 </footer>
 
     </div>

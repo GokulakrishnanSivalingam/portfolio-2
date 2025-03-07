@@ -13,13 +13,16 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
+        "@react-three/drei": "^9.120.5",
+        "@react-three/fiber": "^8.17.10",
         "aos": "^2.3.4",
         "react": "^18.3.1",
         "react-aos": "^1.0.1",
         "react-circular-progressbar": "^2.1.0",
         "react-dom": "^18.3.1",
         "react-icons": "^5.3.0",
-        "react-router-dom": "^6.27.0"
+        "react-router-dom": "^6.27.0",
+        "three": "^0.172.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.9.0",

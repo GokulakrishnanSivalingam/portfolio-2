@@ -1,0 +1,114 @@
+.skills-section {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.skills-section h1 {
+    text-align: center;
+    color: #1367b1;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.skill-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-image img {
+    transform: scale(1.05);
+}
+
+.percentage-circle {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.circular-chart {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.circular-chart path {
+    transition: stroke-dasharray 1s ease;
+}
+
+.percentage {
+    fill: #1367b1;
+    font-size: 10px;
+    font-weight: bold;
+    text-anchor: middle;
+    transform: rotate(90deg);
+    dominant-baseline: middle;
+}
+
+.skill-card h3 {
+    color: #1367b1;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-size: 1.2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        width: 250px;
+    }
+
+    .skill-image {
+        height: 180px;
+    }
+
+    .percentage-circle {
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .percentage {
+        font-size: 8px;
+    }
+} 

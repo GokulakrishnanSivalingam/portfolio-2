@@ -8,7 +8,8 @@ import music from "./img/music.png"
 import klite from "./img/klite.png"
 import ln from "./img/avlearn.png"
 import co from "./img/co.png"
-import farm from "./img/farm.png"
+import farm from "./img/farm.png";
+import { LuExternalLink } from "react-icons/lu";
 
 
 function Project() {
@@ -23,7 +24,7 @@ function Project() {
     };
     return(
 <div>
-<nav className="navbar">
+<center><nav className="navbar">
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
@@ -37,47 +38,47 @@ function Project() {
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-      </nav>
+      </nav></center>
 
 
       <div className="container" >
       <div className="project" data-aos="fade-up">
          <img src={stream} alt="" />
-         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button>visit</button></a> </div>
+         <div className="v"> <p>movie streamer</p><a href="https://jetplex.vercel.app"> <button><LuExternalLink/></button></a> </div>
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
  <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
- <p></p> <button>visit</button></a> </div>
+ <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
         <div className="project" data-aos="fade-up">
  <img src={cal} alt="" />
- <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button>visit</button></a> </div>
+ <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={ln} alt="" />
- <div className="v"><p>Gamification</p><a href="https://avlearns.vercel.app"> <button>visit</button></a> </div>
+ <div className="v"><p>Gamification</p><a href="https://avlearns.vercel.app"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={farm} alt="" />
- <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button>visit</button></a> </div>
+ <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={co} alt="" />
- <div className="v">   <p>Developer Site</p>       <a href="https://commercial-site-nine.vercel.app/"> <button>visit</button></a> </div>
+ <div className="v">   <p>Developer Site</p>       <a href="https://commercial-site-nine.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={music} alt="" />
- <div className="v">   <p>Music player</p>       <a href="https://music-player-pi-kohl.vercel.app/"> <button>visit</button></a> </div>
+ <div className="v">   <p>Music player</p>       <a href="https://music-player-pi-kohl.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={klite} alt="" />
- <div className="v">   <p>k-lite contact</p>       <a href="https://contact-company.vercel.app/"> <button>visit</button></a> </div>
+ <div className="v">   <p>k-lite contact</p>       <a href="https://contact-company.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
    
