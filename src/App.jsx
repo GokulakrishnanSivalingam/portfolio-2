@@ -175,7 +175,7 @@ function App() {
   <div className="discuss-img"> <img src={dis} alt="" /></div> 
   <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
     </button></div> 
-   </div></center> <h1 className='statsh'>Github Stats</h1><div className="github">
+   </div></center><center> <h1 >Github Stats</h1></center><div className="github">
 <div className="stats" data-aos="fade-up">  <img 
         src="https://github-readme-stats.vercel.app/api?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false" 
         alt="GitHub Stats" 
