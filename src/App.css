@@ -262,7 +262,7 @@ h1 {
 }
 
 footer {
-    background: linear-gradient(90deg, rgba(28, 28, 118, 0.98) 14%, rgba(0, 212, 255, 0.98) 100%);
+    background-color: #1367b1;
     color: white;
     padding: 60px 0 40px 0;
     margin-top: 80px;
@@ -603,8 +603,7 @@ p {
     height: 200px;
     border-radius: 7px;
     margin: 30px;
-    background: rgb(28, 28, 118);
-    background: linear-gradient(90deg, rgba(28, 28, 118, 1) 1%, rgba(0, 212, 255, 1) 100%);
+    background-color: #1367b1;
 }
 
 .count h1 {
@@ -630,12 +629,11 @@ p {
     .nav-links {
         display: none;
         flex-direction: column;
-        width: 40%;
+        width: 36%;
         height: fit-content;
         top: 0;
         right: 0;
-        background: rgb(28, 28, 118);
-        background: linear-gradient(90deg, rgba(28, 28, 118, 1) 22%, rgba(0, 212, 255, 1) 100%);
+        background-color: #1367b1;
         z-index: 1000;
         overflow: hidden;
         transition: 0.4s;
@@ -667,6 +665,7 @@ p {
     }
     .nav-links li {
         margin: 20px;
+        margin-left:-30px; ;
     }
     .nav-links li a:hover {
         background-color: white;
@@ -1000,7 +999,6 @@ p {
 .social-icon .i {
     font-size: 21px;
     transition: all 0.3s ease;
-    padding-left: 9px;
     margin-top: 3px;
     color: white;
 }
