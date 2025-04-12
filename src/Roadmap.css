@@ -167,10 +167,10 @@
     }
 
     .timeline-content {
-        width: calc(100% - 40px);
-        max-width: 300px;
+        width: 100%;
+        max-width: 350px;
         padding: 15px;
-        margin-left: auto;
+        margin-left: 5px;
         margin-right: 0;
         transform-origin: top;
     }

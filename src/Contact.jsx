@@ -1,9 +1,18 @@
-import react,{useState} from "react";
-import "./contact.css"
+import React, { useState, useEffect } from 'react';
+import './App.css';
+import AOS from 'aos';
+
 function Contact(){
     const[email,setEmail]=useState('');
     const[message,setMessage]=useState('');
-
+    const [isOpen, setIsOpen] = useState(false);
+    useEffect(() => {
+        AOS.init({ duration: 1000 ,once:true});
+      }, []);
+    
+      const toggleMenu = () => {
+        setIsOpen(!isOpen);
+      };
    async function  handle()
    {
     const resp = await fetch("http://localhost:1000/contact",{
@@ -24,10 +33,27 @@ function Contact(){
 console.log('error')
     }
    }
+     
     
+        
     return(
         <div>
-            <div className="container-contact">
+        <center><nav className="navbar">
+     <div className="logu">GK</div> 
+        <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
+     <li><a href="/">home</a></li>  
+          <li><a href="mailto:sivalingamgokulakrishnan@gmail.com">Contact</a></li>
+         <li><a href="https://github.com/GokulakrishnanSivalingam?tab=overview&from=2024-09-01&to=2024-09-30">Github</a></li>
+         <li><a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/">Linked-in</a></li>
+        </ul>
+        
+        <div className="hamburger" onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
+      </nav></center>
+      <div className="container-contact">
                 <form action="">
                     <div className="cont-contact">
                         <label htmlFor="">email</label><br />

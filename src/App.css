@@ -889,11 +889,11 @@ p {
         font-size: 16px;
     }
     .project {
-        width: 320px;
-        margin: 15px;
+        width: 450px;
+        margin: 10px;
     }
     .project img {
-        height: 200px;
+        height: 240px;
     }
     .project-links {
         gap: 12px;

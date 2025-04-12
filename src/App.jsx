@@ -18,7 +18,7 @@ import r from "./img/r.jpeg";
 import p from "./img/p.jpeg";
 import Map from './Roadmap.jsx'
 import stream from "./img/stream1.png";
-import cal from "./img/cals.png"
+import cr from "./img/cr.png"
 import farm from "./img/farm.png"
 import { LuExternalLink } from "react-icons/lu";
 import { ImGithub } from "react-icons/im";
@@ -153,8 +153,8 @@ function App() {
     <div className="proj"> <h1>Projects Demo</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-up">
- <img src={farm} alt="" />
- <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button><LuExternalLink/></button></a> </div>
+ <img src={cr} alt="" />
+ <div className="v">   <p>Crisis Management</p> <a href="https://crisiz.online"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
@@ -162,9 +162,9 @@ function App() {
  <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
  <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
-        <div className="project" data-aos="fade-up">
- <img src={cal} alt="" />
- <div className="v">   <p>CGPA Calculator</p>       <a href="https://gokulakrishnansivalingam.github.io/cgpa-calculator/loginpage.html"> <button><LuExternalLink/></button></a> </div>
+          <div className="project" data-aos="fade-up">
+ <img src={farm} alt="" />
+ <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
    
@@ -193,7 +193,13 @@ function App() {
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false&layout=compact" 
         alt="Top Languages" 
        
-      /></div> </div>
+      /></div>
+      <h1 >Leetcode Stats</h1> 
+      <div className="stats" data-aos="fade-up"> <img 
+        src="https://leetcard.jacoblin.cool/Gokula_krishnan_007?theme=light&font=changa&ext=activity" 
+        alt="Top Languages" 
+       
+      /></div></div>
     
       
       <footer>
