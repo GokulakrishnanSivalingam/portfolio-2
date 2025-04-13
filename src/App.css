@@ -756,11 +756,11 @@ p {
         display: flex;
         animation: fadeIn 1.5s ease-in-out;
         
-        flex: 2;
+      
         flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+         display: flex;
+    justify-content: center;
+    align-items: center;
     }
     .info {
         margin-left: 40px;
@@ -802,11 +802,11 @@ p {
     .project {
         margin-left: 10px;
     }
-    .skills img {
-        height: 120px;
-        width: 120px;
+    .skills-img img {
+        height: 90px;
+        width: 90px;
         border: none;
-        border-radius: 7px;
+        border-radius: 50px;
         margin: 15px;
         box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
     }
@@ -814,6 +814,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin:0;
     }
     .discuss {
         background-color: #696D98;
@@ -1051,7 +1052,8 @@ p {
 .social-icon .i {
     font-size: 21px;
     transition: all 0.3s ease;
-    margin-top: 3px;
+    margin-top: 4px;
+    margin-right: 8px;
     color: white;
 }
 
