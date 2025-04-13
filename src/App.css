@@ -266,18 +266,17 @@ h1::after {
     align-items: center;
 }
 
-.project,
 .domain {
-    border-radius: 3px;
+   
     box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
     background-color: rgb(255, 255, 255);
-    margin: 30px;
     border: 1px solid rgb(212, 211, 211);
-}
-.domain{
     border-radius: 10px;
     margin: 45px;
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+
 
 }
 
@@ -302,8 +301,11 @@ h1::after {
 
 .domain img:hover {
     transform: translateY(-8px);
+    
 }
-
+.domain:hover img {
+    transform: scale(1.06);
+}
 .domain img {
     width: 270px;
     height: 270px;
