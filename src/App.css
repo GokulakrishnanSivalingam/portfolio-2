@@ -273,12 +273,17 @@ h1::after {
     background-color: rgb(255, 255, 255);
     margin: 30px;
     border: 1px solid rgb(212, 211, 211);
-    transition: transform 0.3s ease, 0.3s ease;
+}
+.domain{
+    border-radius: 10px;
+    margin: 45px;
+    transition: all 0.3s ease;
+
 }
 
 .domain p {
     color: grey;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 2px;
 }
 
@@ -296,16 +301,18 @@ h1::after {
 }
 
 .domain img:hover {
-    width: 290px;
-    height: 310px;
-    transition: 0.5s;
+    transform: translateY(-8px);
 }
 
 .domain img {
-    width: 280px;
-    height: 300px;
-    margin: 8px;
-    border-radius: 2px;
+    width: 270px;
+    height: 270px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.4s ease;
+    object-fit: cover;
+
+   
 }
 
 footer {
@@ -1064,6 +1071,11 @@ p {
     .footer-container {
         padding: 0 20px;
         gap: 40px;
+    }
+    .domain{
+    border-radius: 10px;
+    margin: 25px;
+    transition: all 0.3s ease;
     }
     
     .footer-section {
