@@ -147,7 +147,7 @@
 @media screen and (max-width: 768px) {
     .timeline {
         max-width: 100%;
-        padding: 10px;
+        padding: 0px;
     }
 
     .roadmap-container {
@@ -156,21 +156,21 @@
     }
 
     .timeline::after {
-        left: 31px;
+        left: 32px;
     }
 
     .timeline-item {
         width: 100%;
-        padding-left: 70px;
-        padding-right: 15px;
+        padding-left: 60px;
+        padding-right: 5px;
         margin: 25px 0;
     }
 
     .timeline-content {
-        width: 100%;
-        max-width: 350px;
-        padding: 15px;
-        margin-left: 5px;
+        width: 97%;
+        
+        padding: 20px;
+        margin-left: 0px;
         margin-right: 0;
         transform-origin: top;
     }

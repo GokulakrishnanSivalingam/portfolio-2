@@ -187,7 +187,10 @@ transform: translateY(0);
     display: flex;
     flex-wrap: wrap;
     animation: fadeIn 1.5s ease-in-out;
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .con-skills {
@@ -752,9 +755,12 @@ p {
     .skills {
         display: flex;
         animation: fadeIn 1.5s ease-in-out;
-        margin-left: 35px;
+        
         flex: 2;
         flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .info {
         margin-left: 40px;
@@ -894,6 +900,7 @@ p {
     }
     .project img {
         height: 240px;
+        width: 95%;
     }
     .project-links {
         gap: 12px;
