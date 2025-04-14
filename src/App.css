@@ -202,8 +202,8 @@ transform: translateY(0);
 }
 
 .skills-img img {
-    height: 100px;
-    width: 100px;
+    height: 95px;
+    width: 95px;
     border: none;
     border-radius: 100px;
     margin: 20px;
@@ -271,7 +271,7 @@ h1::after {
     box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(212, 211, 211);
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 45px;
     transition: all 0.3s ease;
     position: relative;
@@ -634,7 +634,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 20px;
     background: #1367b1;
     color: white;
     border: none;
@@ -657,10 +657,10 @@ p {
 }
 
 .count {
-    width: 250px;
+    width: 280px;
     height: 200px;
     border-radius: 7px;
-    margin: 30px;
+    margin: 40px;
     background-color: #1367b1;
 }
 
@@ -810,15 +810,13 @@ p {
         font-size: 28px;
         visibility: visible;
     }
-    .project {
-        margin-left: 10px;
-    }
+    
     .skills-img img {
-        height: 90px;
-        width: 90px;
+        height: 85px;
+        width: 85px;
         border: none;
         border-radius: 50px;
-        margin: 15px;
+        margin: 12px;
         box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.3);
     }
     .con-skills {
@@ -835,6 +833,7 @@ p {
     }
     .count {
         width: 85%;
+        margin: 25px;
     }
     .discuss img {
         width: 300px;
@@ -1075,7 +1074,7 @@ p {
         gap: 40px;
     }
     .domain{
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 25px;
     transition: all 0.3s ease;
     }
