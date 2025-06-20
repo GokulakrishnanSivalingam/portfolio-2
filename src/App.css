@@ -121,7 +121,7 @@ button {
     height: 45px;
     border-radius: 5px;
     margin: 20px;
-    margin-bottom: 70px;
+  
     color: #000;
     border: none;
     color: white;
@@ -823,7 +823,7 @@ p {
         font-size: 28px;
         visibility: visible;
     }
-    
+
     .skills-img img {
         height: 85px;
         width: 85px;
@@ -912,6 +912,7 @@ p {
         font-size: 15px;
         line-height: 38px;
     }
+   
     
     .v a button {
         width: 38px;
