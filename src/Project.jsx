@@ -45,13 +45,13 @@ function Project() {
       <div className="container" >
        <div className="project" data-aos="fade-up">
         <img src={cr} alt="" />
-        <div className="v">   <p>Crisis Management</p> <a href="www.crisiz.online"> <button><LuExternalLink/></button></a> </div>
+        <div className="v">   <p>Crisis Management</p> <a href="https://www.crisiz.online"> <button><LuExternalLink/></button></a> </div>
                
                </div>
       
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
- <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
+ <div className="v">   <p>Clothes e-com</p><a href="https://ttshirts.vercel.app">
  <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
           <div className="project" data-aos="fade-up">

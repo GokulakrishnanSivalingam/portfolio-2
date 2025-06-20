@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import pdf from'./img/Gokulakrishnan-resume.pdf'
+import pdf from'./img/resume.pdf'
 import dis from "./img/discuss.gif"
 import p1 from "./img/p2.gif";
 import css from "./img/css.png";
@@ -31,6 +31,7 @@ import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
+import What from './components/Whatsapp.jsx';
 
 
 
@@ -74,8 +75,8 @@ function App() {
   };
   
   return (
-    <div >
-     <center><nav className="navbar">
+    <div id='hom'>
+     <center><nav className="navbar" >
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
@@ -93,6 +94,7 @@ function App() {
       </nav></center>
 
       <div className="cont" id="home">
+        <What/>
         <div className="info" data-aos="fade-up" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
           <h1 className={isHovered ? 'text-focus' : ''}>Hello there!, Iam Gokulakrishnan </h1>
         
@@ -161,7 +163,7 @@ function App() {
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
- <div className="v">   <p>Clothes e-com</p><a href="https://zeeshirts.vercel.app">
+ <div className="v">   <p>Clothes e-com</p><a href="https://ttshirts.vercel.app">
  <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
           <div className="project" data-aos="fade-up">
