@@ -32,6 +32,7 @@ import { IoMdMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import What from './components/Whatsapp.jsx';
+import { MdDownload } from "react-icons/md";
 
 
 
@@ -101,8 +102,10 @@ function App() {
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
           </p>
-          <a href={pdf} download className={isHovered ? 'button-hover' : ''}> <button>Resume  <GrLinkNext/></button></a>
-        </div>
+         
+          <a href={pdf} download className={isHovered ? 'button-hover' : ''}> <button>Resume  <MdDownload/></button></a>
+        <a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/"><button id="connect">Connect with me</button></a> 
+         </div>
         <div className="info2" >
           {mounted && <Three />}
         </div>

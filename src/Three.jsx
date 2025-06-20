@@ -17,7 +17,7 @@ const Model = () => {
 
   // Adjusted configuration
   scene.scale.set(9,9,9);
-  scene.position.set(0, -0.5, 0); // Moved down slightly
+  scene.position.set(0, -0.6, 0); // Moved down slightly
   scene.rotation.set(0, Math.PI / 4, 0);
 
   return (
