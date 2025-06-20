@@ -897,7 +897,10 @@ p {
         flex: 100%;
         text-align: center;
     }
-    
+    #connect
+    {
+        margin-bottom: 50px;
+    }
     .footer-section h2:after {
         left: 50%;
         transform: translateX(-50%);
