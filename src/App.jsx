@@ -49,7 +49,7 @@ function App() {
 
     // Add scroll event listener
     const handleScroll = () => {
-      const sections = ['home', 'skills', 'projects', 'contact'];
+      const sections = ['Home', 'Skills', 'Projects', 'Contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -81,7 +81,7 @@ function App() {
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
      <li><a href="/">home</a></li>  
-           <li><Link to="/project">projects</Link></li>
+           <li><Link to="/project">Projects</Link></li>
           <li><a href="mailto:sivalingamgokulakrishnan@gmail.com">Contact</a></li>
          <li><a href="https://github.com/GokulakrishnanSivalingam?tab=overview&from=2024-09-01&to=2024-09-30">Github</a></li>
          <li><a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/">Linked-in</a></li>
@@ -97,7 +97,7 @@ function App() {
       <div className="cont" id="home">
         <What/>
         <div className="info" data-aos="fade-up" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-          <h1 className={isHovered ? 'text-focus' : ''}>Hello there!, Iam Gokulakrishnan </h1>
+          <h1 className={isHovered ? 'text-focus' : ''}>Hello there!, I am Gokulakrishnan </h1>
         
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
@@ -180,7 +180,7 @@ function App() {
       <center><Link to="/project"><button >see more</button></Link></center>
       <center> <div className="discuss" data-aos="fade-right">
   <div className="discuss-img"> <img src={dis} alt="" /></div> 
-  <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
+  <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">Lets discuss</a>
     </button></div> 
    </div></center><div className="github">
    <center> <h1 >Github Stats</h1></center>
