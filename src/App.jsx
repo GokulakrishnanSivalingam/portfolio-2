@@ -111,7 +111,7 @@ function App() {
         </div>
       </div>
       <Map/>
-<h1>thing i do</h1>
+<h1>Things I do</h1>
 <div className="container1">
   <div className="domain" data-aos="fade-up">
     <img src="https://i.pinimg.com/originals/e8/d8/3e/e8d83e14bb6d1874f85d36213b1dac40.gif" alt="" />
