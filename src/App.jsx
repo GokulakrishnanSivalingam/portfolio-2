@@ -80,8 +80,8 @@ function App() {
      <center><nav className="navbar" >
      <div className="logu">GK</div> 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-     <li><a href="/">home</a></li>  
-           <li><Link to="/project">projects</Link></li>
+     <li><a href="/">Home</a></li>  
+           <li><Link to="/project">Projects</Link></li>
           <li><a href="mailto:sivalingamgokulakrishnan@gmail.com">Contact</a></li>
          <li><a href="https://github.com/GokulakrishnanSivalingam?tab=overview&from=2024-09-01&to=2024-09-30">Github</a></li>
          <li><a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/">Linked-in</a></li>
@@ -97,7 +97,7 @@ function App() {
       <div className="cont" id="home">
         <What/>
         <div className="info" data-aos="fade-up" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-          <h1 className={isHovered ? 'text-focus' : ''}>Hello there!, Iam Gokulakrishnan </h1>
+          <h1 className={isHovered ? 'text-focus' : ''}>Hello there!, I am Gokulakrishnan </h1>
         
           <p>
             Aspring talent in web development using React for building dynamic, responsive front-end interfaces and Express.js for efficient backend APIs.
@@ -106,12 +106,12 @@ function App() {
           <a href={pdf} download className={isHovered ? 'button-hover' : ''}> <button>Resume  <MdDownload/></button></a>
         <a href="https://www.linkedin.com/in/gokulakrishnan-s-01890b312/"><button id="connect">Connect with me</button></a> 
          </div>
-        <div className="info2" >
+        <div className="info2" id='z'>
           {mounted && <Three />}
         </div>
       </div>
       <Map/>
-<h1>thing i do</h1>
+<h1>Things I do</h1>
 <div className="container1">
   <div className="domain" data-aos="fade-up">
     <img src="https://i.pinimg.com/originals/e8/d8/3e/e8d83e14bb6d1874f85d36213b1dac40.gif" alt="" />
@@ -161,17 +161,17 @@ function App() {
       <div className="container" >
       <div className="project" data-aos="fade-up">
  <img src={cr} alt="" />
- <div className="v">   <p>Crisis Management</p> <a href="https://crisiz.online"> <button><LuExternalLink/></button></a> </div>
+ <div className="v">   <p>Crisis Management</p> <a href="https://github.com/GokulakrishnanSivalingam/dms-frontend" id="git"> <button><FaGithub/></button></a> <a href="https://crisiz.online"> <button><LuExternalLink/></button></a> </div>
         
         </div>
         <div className="project" data-aos="fade-up">
  <img src={zee} alt="" />
- <div className="v">   <p>Clothes e-com</p><a href="https://ttshirts.vercel.app">
+ <div className="v">   <p>Clothes e-commerce</p> <a href="https://github.com/GokulakrishnanSivalingam/Cloth-ecommerce" id="git"> <button><FaGithub/></button></a> <a href="https://ttshirts.vercel.app">
  <p></p> <button><LuExternalLink/></button></a> </div>
           </div>
           <div className="project" data-aos="fade-up">
  <img src={farm} alt="" />
- <div className="v">   <p>Farm Fresh</p>       <a href="https://farmfreshs.vercel.app/"> <button><LuExternalLink/></button></a> </div>
+ <div className="v">   <p>Farm Fresh products</p>       <a href="https://github.com/GokulakrishnanSivalingam/fertilizer-site" id="git"> <button><FaGithub/></button></a> <a href="https://farmfreshs.vercel.app/"> <button><LuExternalLink/></button></a> </div>
         
         </div>
    
@@ -238,7 +238,7 @@ function App() {
       </div>
       <div className="contact-info">
         <IoCall/>
-        <p>+91 9876543210</p>
+        <p>+91 9543896651</p>
       </div>
       <div className="contact-info">
 <FaLocationDot/>

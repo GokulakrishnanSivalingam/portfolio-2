@@ -640,6 +640,12 @@ p {
     display: flex;
     gap: 15px;
 }
+#git{
+    margin-right: -15px;
+}
+.v a{
+    margin-left: 0;
+}
 
 .v a button {
     width: 42px;
@@ -786,6 +792,9 @@ p {
     justify-content: center;
     align-items: center;
     }
+    .info2{
+        display: none;
+    }
     .info {
         margin-left: 40px;
         margin-right: 20px;
@@ -915,7 +924,9 @@ p {
         font-size: 15px;
         line-height: 38px;
     }
-   
+   #git{
+    margin-right: -5px;
+}
     
     .v a button {
         width: 38px;
