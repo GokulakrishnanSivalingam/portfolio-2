@@ -7,18 +7,21 @@ const Model = () => {
   const modelRef = useRef();
   const { scene } = useGLTF('/avs.glb');
 
-  // Modified rotation animation - only horizontal
+  // Smooth continuous rotation animation
   useFrame((state) => {
     if (modelRef.current) {
       const t = state.clock.getElapsedTime();
-      modelRef.current.rotation.y = Math.sin(t / 4) / 4 + Math.PI / 4;
+      // Smooth Y-axis rotation for better viewing angle
+      modelRef.current.rotation.y = t * 3;
+      // Subtle X-axis tilt for depth
+      modelRef.current.rotation.x = Math.sin(t * 1.5) * 0.15;
     }
   });
 
-  // Adjusted configuration
-  scene.scale.set(9,9,9);
-  scene.position.set(0, -0.6, 0); // Moved down slightly
-  scene.rotation.set(0, Math.PI / 4, 0);
+  // Optimized configuration for full-height coverage
+  scene.scale.set(12, 12, 12);
+  scene.position.set(0, -0.8, 0);
+  scene.rotation.set(0, 0, 0); // Better initial viewing angle
 
   return (
     <primitive 
@@ -34,20 +37,21 @@ const Three = () => {
     <div className='three'>
       <Canvas
         camera={{ 
-          position: [0, 0, 5], // Increased z-position
-          fov: 38// Increased field of view
+          position: [0, 0, 6],
+          fov: 45
         }}
       >
         <Suspense fallback={null}>
-          <ambientLight intensity={0.5} />
-          <pointLight position={[5, 5, 5]} />
+          <ambientLight intensity={0.6} />
+          <pointLight position={[8, 8, 8]} intensity={0.8} />
+          <pointLight position={[-5, -5, 5]} intensity={0.4} />
           <Model />
           <OrbitControls 
             enableZoom={false}
             enablePan={false}
-            autoRotate={false} // Disabled auto-rotation
-            minPolarAngle={Math.PI / 2} // Lock vertical rotation
-            maxPolarAngle={Math.PI / 2}
+            autoRotate={false}
+            minPolarAngle={Math.PI / 2.5}
+            maxPolarAngle={Math.PI / 1.8}
           />
         </Suspense>
       </Canvas>

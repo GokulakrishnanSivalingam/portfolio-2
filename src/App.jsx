@@ -142,22 +142,8 @@ function App() {
            <div className="skills-img" > <a href="https://www.nodemon.com/"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRykRTdDJ3ww4V5zBUAMxY3Fyzg_7RXyOVNg&s" alt="" data-aos="fade-up"/></a> </div>
       </div></div>
       
-      <h1>Projects </h1>
-      <div className="project-count" data-aos="fade-up">
-        <div className="count" >
-          <h1>20+</h1>
-          <p>Total projects</p>
-        </div>       
-        <div className="count" >
-          <h1>13</h1>
-          <p>Static projects</p>
-        </div>  
-        <div className="count" >
-          <h1>7</h1>
-          <p>Dynamic projects</p>
-        </div>               
-      </div>
-    <div className="proj"> <h1>Projects Demo</h1></div> 
+      
+    <div className="proj"> <h1>Projects</h1></div> 
       <div className="container" >
       <div className="project" data-aos="fade-up">
  <img src={cr} alt="" />
@@ -183,24 +169,8 @@ function App() {
   <div className="discuss-button"> <h2>Have a project mind !! </h2><button><a href="mailto:sivalingamgokulakrishnan@gmail.com">let discuss</a>
     </button></div> 
    </div></center><div className="github">
-   <center> <h1 >Github Stats</h1></center>
-<div className="stats" data-aos="fade-up">  <img 
-        src="https://github-readme-stats.vercel.app/api?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false" 
-        alt="GitHub Stats" 
-       
-      /></div> 
-      
-      <div className="stats" data-aos="fade-up"> <img 
-        src="https://github-readme-streak-stats.herokuapp.com/?user=GokulakrishnanSivalingam&hide_border=false" 
-        alt="GitHub Streak" 
-        
-      /></div> 
-      
-      <div className="stats" data-aos="fade-up"> <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=GokulakrishnanSivalingam&hide_border=false&include_all_commits=false&count_private=false&layout=compact" 
-        alt="Top Languages" 
-       
-      /></div>
+
+
       <h1 >Leetcode Stats</h1> 
       <div className="stats" data-aos="fade-up"> <img 
         src="https://leetcard.jacoblin.cool/Gokula_krishnan_007?theme=light&font=changa&ext=activity" 
